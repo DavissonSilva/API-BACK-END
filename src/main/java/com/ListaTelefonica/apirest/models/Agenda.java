@@ -24,7 +24,6 @@ public class Agenda extends AbstractEntity {
 	private String nome;
 	private String sobreNome;
 	private String telefone;
-	@OneToOne
 	private Operadoras operadora;
 
 }
